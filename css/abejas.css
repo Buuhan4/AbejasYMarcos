@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0E68C;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #FFC500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+}
+.logo {
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.titulo {
+    font-size: 1.8rem;
+    color: #4A4A4A;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    display: none;
+    background-color: #FFD700;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+    display: block;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Botón de "Volver" ahora con una flecha */
+.back-button {
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem; /* Flecha más grande */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Contenido principal */
+.content {
+    padding: 20px;
+}
+
+/* Estilos de la tabla */
+.abejas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.abejas-table th, .abejas-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.abejas-table th {
+    background-color: #FFC500;
+    color: #fff;
+    font-weight: bold;
+}
+
+.abejas-table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.abejas-table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.abejas-table img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.abejas-table tr:hover td {
+    background-color: #ffeb99;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
