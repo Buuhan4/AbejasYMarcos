@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-/* Header */
 .header {
     background-color: #FFC500;
     display: flex;
@@ -36,7 +35,6 @@ body {
     cursor: pointer;
 }
 
-/* Sidebar */
 .sidebar {
     display: none;
     background-color: #FFD700;
@@ -74,19 +72,17 @@ body {
     color: #333;
 }
 
-/* Botón de "Volver" ahora con una flecha */
 .back-button {
     background-color: #FF8C00;
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1.5rem; /* Flecha más grande */
+    font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-/* Contenido principal */
 .content {
     padding: 40px 20px;
     max-width: 1000px;
@@ -103,7 +99,6 @@ h2 {
     color: #333;
 }
 
-/* Estilo para el formulario de inicio de sesión */
 .login-container {
     max-width: 400px;
     margin: 0 auto;
@@ -115,7 +110,7 @@ h2 {
 }
 
 .login-container:hover {
-    transform: translateY(-5px); /* Efecto de desplazamiento hacia arriba */
+    transform: translateY(-5px);
 }
 
 .login-container h2 {
@@ -156,11 +151,11 @@ h2 {
 
 .button:hover {
     background-color: #FFA500;
-    transform: translateY(-3px); /* Efecto de elevación al pasar el ratón */
+    transform: translateY(-3px);
 }
 
 .button:active {
-    transform: translateY(1px); /* Efecto de pulsación */
+    transform: translateY(1px);
 }
 
 .small-links p {
@@ -181,7 +176,6 @@ h2 {
     text-decoration: underline;
 }
 
-/* Sección sobre nosotros */
 .sobre-nosotros-section {
     display: flex;
     align-items: center;
@@ -220,18 +214,16 @@ h2 {
     border-radius: 10px;
 }
 
-/* Estilo para productos */
 .productos-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Espacio entre productos */
+    gap: 20px;
     justify-content: space-between;
     padding: 20px;
 }
 
-/* Estilo para cada producto */
 .producto {
-    flex: 0 1 calc(50% - 10px); /* Cambiar a 50% para que quepan dos por línea */
+    flex: 0 1 calc(50% - 10px);
     box-sizing: border-box;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -242,13 +234,13 @@ h2 {
 }
 
 .producto:hover {
-    transform: scale(1.05); /* Efecto de aumento cuando pasas el ratón */
+    transform: scale(1.05);
 }
 
 .producto-img {
     width: 100%;
     height: auto;
-    max-width: 250px; /* Tamaño máximo de la imagen */
+    max-width: 250px;
     margin-bottom: 15px;
 }
 
@@ -279,7 +271,7 @@ h2 {
 
 @media (min-width: 768px) {
     .producto {
-        flex: 0 1 calc(50% - 10px); /* Para pantallas más grandes, los productos ocupan el 50% */
+        flex: 0 1 calc(50% - 10px);
     }
 }
 
@@ -330,7 +322,6 @@ h2 {
     color: #555;
 }
 
-/* Footer */
 .footer {
     background-color: #333;
     padding: 10px;
@@ -347,7 +338,6 @@ footer p {
     margin: 0 10px;
 }
 
-/* Contact Form */
 form {
     display: flex;
     flex-direction: column;
@@ -394,9 +384,9 @@ form button {
 
 form button:hover {
     background-color: #FFA500;
-    transform: translateY(-3px); /* Efecto de elevación al pasar el ratón */
+    transform: translateY(-3px);
 }
 
 form button:active {
-    transform: translateY(1px); /* Efecto de pulsación */
+    transform: translateY(1px);
 }
