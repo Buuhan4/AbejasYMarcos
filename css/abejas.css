@@ -36,7 +36,6 @@ h2{
     cursor: pointer;
 }
 
-/* Sidebar */
 .sidebar {
     display: none;
     background-color: #FFD700;
@@ -74,24 +73,21 @@ h2{
     color: #333;
 }
 
-/* Botón de "Volver" ahora con una flecha */
 .back-button {
     background-color: #FF8C00;
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1.5rem; /* Flecha más grande */
+    font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-/* Contenido principal */
 .content {
     padding: 20px;
 }
 
-/* Estilos de la tabla */
 .abejas-table {
     width: 100%;
     border-collapse: collapse;
@@ -134,7 +130,6 @@ h2{
     cursor: pointer;
 }
 
-/* Footer */
 .footer {
     background-color: #333;
     padding: 10px;
