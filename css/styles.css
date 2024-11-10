@@ -10,7 +10,6 @@ body {
 }
 
 
-/* Estilos de la cabecera */
 .header {
     background-color: #FFC500;
     display: flex;
@@ -38,7 +37,6 @@ body {
     cursor: pointer;
 }
 
-/* Estilos de la barra lateral */
 .sidebar {
     display: none;
     background-color: #FFD700;
@@ -94,7 +92,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Contenido principal */
 .content {
     padding: 20px;
 }
