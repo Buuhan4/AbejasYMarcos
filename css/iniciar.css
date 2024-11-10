@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 html, body {
-    height: 100%;  /* Ocupa toda la altura de la ventana */
-    margin: 0;     /* Elimina márgenes por defecto */
-    padding: 0;    /* Elimina padding por defecto */
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -16,7 +14,6 @@ body {
     flex-direction: column;
 }
 
-/* El header */
 .header {
     background-color: #FFC500;
     display: flex;
@@ -44,7 +41,6 @@ body {
     cursor: pointer;
 }
 
-/* La barra lateral (sidebar) */
 .sidebar {
     display: none;
     background-color: #FFD700;
@@ -93,7 +89,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* El contenido principal */
 .content {
     padding: 40px 20px;
     max-width: 1000px;
@@ -101,7 +96,7 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;  /* Esto permite que el contenido ocupe el espacio restante */
+    flex: 1;
 }
 
 h2 {
@@ -166,13 +161,12 @@ h2 {
     text-decoration: underline;
 }
 
-/* El footer */
 .footer {
     background-color: #333;
     padding: 10px;
     text-align: center;
     color: #fff;
-    margin-top: auto; /* Asegura que el footer se quede abajo */
+    margin-top: auto;
 }
 
 footer p {
