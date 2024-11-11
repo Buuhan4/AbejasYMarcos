@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de Abejas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="logo.jfif" alt="Logo Abeja" class="logo"></a>
+        <h1 class="titulo">Abejas y Marcos</h1>
+        <button id="menu-toggle" class="menu-button">☰</button>
+    </header>
+
+    <aside id="sidebar" class="sidebar">
+        <button id="back-button" class="back-button">←</button>
+        <input type="text" class="search-bar" placeholder="Buscar...">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="abejas.html">Abejas</a></li>
+                <li><a href="elaboracion.html">Elaboración</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                <li><a href="iniciar.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.663785781764!2d-122.0842494846913!3d37.42199997982598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b6d7a6f5b9%3A0x3b6bf1e83f4d2!2sGoogleplex!5e0!3m2!1sen!2sus!4v1632987082825!5m2!1sen!2sus"
+                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </aside>
+
+    <main class="content">
+        <center><h2>Productos de las Abejas</h2></center>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="https://comprafrutosrojos.com/wp-content/uploads/2022/07/miel-cateogoria-FRLC-min.jpg" alt="Miel" class="producto-img">
+                <h3>Miel Natural</h3>
+                <p>Deliciosa miel orgánica directamente de las colmenas.</p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://www.almasecret.com/modules/pstglossary/upload/1af78c893d6e3ad15cb20e07f02f85b6.jpg" alt="Cera de Abeja" class="producto-img">
+                <h3>Cera de Abeja</h3>
+                <p>Cera natural para productos cosméticos y más.</p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://farmaciarescatado.es/wp-content/uploads/2024/02/Beneficios-y-Propiedades-del-Propoleo-%C2%BFPara-que-sirve%EF%80%A5.jpg" alt="Propóleo" class="producto-img">
+                <h3>Propóleo</h3>
+                <p>Propóleo para fortalecer el sistema inmune.</p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://c.files.bbci.co.uk/6A25/production/_97137172_polencucharagettyimages-654795384.jpg" alt="Polen" class="producto-img">
+                <h3>Polen de Abeja</h3>
+                <p>Polen fresco y nutritivo para tu bienestar.</p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://m.media-amazon.com/images/I/51z2ZbmpfUL._AC_UF894,1000_QL80_.jpg" alt="Veneno de abeja" class="producto-img">
+                <h3>Veneno de abeja</h3>
+                <p>El veneno de abeja se utiliza en medicina alternativa para tratar diversas afecciones, como la artritis, dolores musculares y enfermedades autoinmunes. </p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://mielonline.com/wp-content/uploads/2016/05/g-1.jpg" alt="Jalea Real" class="producto-img">
+                <h3>Jalea Real</h3>
+                <p>Jalea real pura para mejorar la energía y la salud.</p>
+                <button class="comprar-btn">Comprar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram" width="25px" height="25px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png" alt="Facebook" width="25px" height="25px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="WhatsApp" width="25px" height="25px">
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('open');
+        });
+        document.getElementById('back-button').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.remove('open');
+        });
+    </script>
+</body>
+</html>
