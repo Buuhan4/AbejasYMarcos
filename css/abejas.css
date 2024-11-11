@@ -132,12 +132,21 @@ h2{
 
 .footer {
     background-color: #333;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: #fff;
 }
 
-.social-icons a img {
-    width: 30px;
-    margin: 0 10px;
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.social-icons img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
 }
